@@ -1,6 +1,10 @@
 <template>
-  <div>
-    <p>Helloねとりふぁい</p>
-    <div>あああ</div>
-  </div>
+  <section>
+    <div>
+      <h1>Hello World</h1>
+    </div>
+    <div>
+      <p>最初のテキストです。</p>
+    </div>
+  </section>
 </template>
