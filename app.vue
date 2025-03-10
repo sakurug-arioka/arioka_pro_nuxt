@@ -1,10 +1,17 @@
+<script setup lang="ts">
+const msg = ref("まだ");
+
+const onButtonClick = (label: string, event: Event): void =>{
+  const target = event.target as HTMLButtonElement;
+  const text = target.innerText;
+  msg.value =`${label}と${text}`;
+};
+</script>
+
 <template>
-  <section>
-    <div>
-      <h1>Hello World</h1>
-    </div>
-    <div>
-      <p>最初のテキストです。</p>
-    </div>
-  </section>
+  <p>{{ msg }}</p>
+  <button v-on:click="onButtonClick('hello',$event)">こんにちわ</button>
 </template>
+
+<style>
+</style>
