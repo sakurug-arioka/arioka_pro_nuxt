@@ -7,7 +7,7 @@
     <section class="about-us-section px-0 py-16 md:py-32">
       <div class="content columns">
         <div class="content-column-left">
-          <small class="ml-[0.2em]">私たちについて</small>
+          <small class="ml-[0.2em]">うちだたちについて</small>
           <h2>About Uchida</h2>
           <p>培ったデザインと技術で<br class="br-sp">SEOに強いWebサイトを実現します。</p>
           <SecondaryButton to="/about" label="もっと見る" class="justify-start mr-auto" />
