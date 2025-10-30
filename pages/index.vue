@@ -8,7 +8,7 @@
       <div class="content columns">
         <div class="content-column-left">
           <small class="ml-[0.2em]">私たちについて</small>
-          <h2>About us</h2>
+          <h2>About Uchida</h2>
           <p>培ったデザインと技術で<br class="br-sp">SEOに強いWebサイトを実現します。</p>
           <SecondaryButton to="/about" label="もっと見る" class="justify-start mr-auto" />
         </div>
